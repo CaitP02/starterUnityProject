@@ -1,5 +1,6 @@
-using UnityEngine;
 using TMPro;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class pointsDisplay : MonoBehaviour
@@ -19,11 +20,13 @@ public class pointsDisplay : MonoBehaviour
         {
             winText.text = "You Win!";
             Time.timeScale = 0;
+            SceneManager.LoadScene("endScene");
         }
         if (pointsDisplay.totalPoints <= -30)
         {
             winText.text = "You Lose!";
             Time.timeScale = 0;
+            SceneManager.LoadScene("endScene");
         }
 
 

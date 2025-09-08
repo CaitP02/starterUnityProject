@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 
 public class timeDisplay : MonoBehaviour
@@ -19,6 +20,7 @@ public class timeDisplay : MonoBehaviour
         {
             winText.text = "You Lose!";
             Time.timeScale = 0;
+            SceneManager.LoadScene("endScene");
         }
 
     }
