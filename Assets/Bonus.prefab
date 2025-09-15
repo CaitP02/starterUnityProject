@@ -20,6 +20,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -923994315097029292, guid: f853b1bb7707db04192c7186ea6e03ed, type: 3}
+    - target: {fileID: -3542990832193181325, guid: e0c22161f13e56d42bfbdb67a5c22164, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 909122327378764442, guid: e0c22161f13e56d42bfbdb67a5c22164, type: 3}
       propertyPath: m_Radius
       value: 0.1
@@ -32,6 +36,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bonus
       objectReference: {fileID: 0}
+    - target: {fileID: 6021625969413199355, guid: e0c22161f13e56d42bfbdb67a5c22164, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: ed84808af929d394eade83b874470e49, type: 3}
     - target: {fileID: 7468416825313183639, guid: e0c22161f13e56d42bfbdb67a5c22164, type: 3}
       propertyPath: m_Resource
       value: 

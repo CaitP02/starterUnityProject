@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class BonusClick : MonoBehaviour
+public class EnemyClick : MonoBehaviour
 {
     public static int points;
     AudioSource boom;
@@ -11,7 +11,8 @@ public class BonusClick : MonoBehaviour
     {
         boom = GetComponent<AudioSource>();
         objRenderer = GetComponent<Renderer>();
-        Debug.Log("BonusClick Open!");
+        Debug.Log("EnemyClick Open!");
+        Destroy(gameObject, 10f); // Destroy the enemy after 5 seconds if not clicked
     }
 
     void Update()
@@ -32,10 +33,10 @@ public class BonusClick : MonoBehaviour
     {
         objRenderer.enabled = false;
         boom.Play();
-        Debug.Log("Bonus clicked! " + points);
+        Debug.Log("Enemy clicked! " + points);
         if (boom.clip != null)
         {
-            points += 5; // Adjust points logic as needed
+            points += -1; 
             Destroy(gameObject, boom.clip.length);
             yield return new WaitForSeconds(boom.clip.length);
         }

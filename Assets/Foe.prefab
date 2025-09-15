@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -4015906954449358250}
   m_Layer: 0
   m_Name: Foe
-  m_TagString: Untagged
+  m_TagString: Balloon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cd32be2d200b0b4882e5855d546ca45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moveScript
-  moveSpeed: 5
+  moveSpeed: 3
 --- !u!58 &2557021625226106715
 CircleCollider2D:
   m_ObjectHideFlags: 0

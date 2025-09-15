@@ -1,6 +1,8 @@
 using UnityEngine;
+using System.Collections;
 
-public class BadClick : MonoBehaviour
+
+public class BombClick : MonoBehaviour
 {
     public static int points;
     AudioSource boom;
@@ -24,16 +26,32 @@ public class BadClick : MonoBehaviour
 
             if (hit.collider != null && hit.collider.gameObject == gameObject)
             {
-                objRenderer.enabled = false;
-                boom.Play();
-                points += -100;
-                Debug.Log("Bomb clicked!" + " " + points);
-                if (boom.clip != null)
-                {
-                    Destroy(gameObject, boom.clip.length);
-                }
-            }
+                StartCoroutine(DestroyObj());
 
+
+            }
         }
     }
+    
+public IEnumerator DestroyObj()
+{
+    objRenderer.enabled = false;
+    boom.Play();
+    Debug.Log("Bomb clicked!" + " " + points);
+
+    yield return new WaitForSeconds(1f); // Wait 5 seconds before adding points
+
+    points = -100;
+
+    if (boom.clip != null)
+    {
+        Destroy(gameObject, boom.clip.length);
+    }
+    else
+    {
+        Destroy(gameObject);
+    }
+}
+
+
 }

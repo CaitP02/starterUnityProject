@@ -25,6 +25,10 @@ PrefabInstance:
       value: Balloon
       objectReference: {fileID: 0}
     - target: {fileID: 1006900918276529739, guid: c96310260172c1b4b85775988299285e, type: 3}
+      propertyPath: m_TagString
+      value: Balloon
+      objectReference: {fileID: 0}
+    - target: {fileID: 1006900918276529739, guid: c96310260172c1b4b85775988299285e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -121,6 +125,7 @@ PrefabInstance:
     - {fileID: -3948576452630444528, guid: c96310260172c1b4b85775988299285e, type: 3}
     - {fileID: 5660292681060919528, guid: c96310260172c1b4b85775988299285e, type: 3}
     - {fileID: 7988646419623178947, guid: c96310260172c1b4b85775988299285e, type: 3}
+    - {fileID: -4015906954449358250, guid: c96310260172c1b4b85775988299285e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:

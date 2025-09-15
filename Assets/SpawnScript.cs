@@ -10,31 +10,32 @@ public class NewBehaviourScript : MonoBehaviour
     public GameObject Imposter;
     public GameObject Bonus;
     public GameObject BadGuy;
-   public void StartSpawning()
+    
+    public void StartSpawning()
     {
         // Call the method to start spawning objects
         StartCoroutine(Spawner());
+        spawnBad();
+        spawnBad();
+
     }
     IEnumerator Spawner()
     {
        
 
-        while(pointsDisplay.totalPoints < 20 && pointsDisplay.totalPoints > -20)
+        while(pointsDisplay.gameEnd == false)
        
-            for(int i = 0; i < 5; i++)
+            for(int i = 0; i < 2; i++)
             {
-                for (int j = 0; j < 10; j++)
+                for (int j = 0; j < 5; j++)
                 {
                     spawnImposter();
-                   
-                }
-                for(int k = 0; k < 5; k++)
-                {
                     spawnCircle();
 
                 }
+               
                 spawnBonus();
-                spawnBad();
+                
                 yield return new WaitForSeconds(5);
             }
     
@@ -56,7 +57,7 @@ public class NewBehaviourScript : MonoBehaviour
         float maxY = cam.transform.position.y + camHeight / 2f;
 
         float x = Random.Range(minX, maxX);
-        float y = Random.Range(minY, maxY);
+        float y = minY - 1f;
 
         Vector3 worldPos = new Vector3(x, y, z);
         Debug.Log($"Spawned circle at x: {worldPos.x}, y: {worldPos.y}");
@@ -76,7 +77,7 @@ public class NewBehaviourScript : MonoBehaviour
         float maxY = cam.transform.position.y + camHeight / 2f;
 
         float x = Random.Range(minX, maxX);
-        float y = Random.Range(minY, maxY);
+        float y = minY - 1f;
 
         Vector3 worldPos = new Vector3(x, y, z);
         Debug.Log($"Spawned imposter at x: {worldPos.x}, y: {worldPos.y}");
@@ -96,7 +97,7 @@ public class NewBehaviourScript : MonoBehaviour
         float maxY = cam.transform.position.y + camHeight / 2f;
 
         float x = Random.Range(minX, maxX);
-        float y = Random.Range(minY, maxY);
+        float y = maxY + 1f;
 
         Vector3 worldPos = new Vector3(x, y, z);
         Debug.Log($"Spawned imposter at x: {worldPos.x}, y: {worldPos.y}");
@@ -116,7 +117,7 @@ public class NewBehaviourScript : MonoBehaviour
         float maxY = cam.transform.position.y + camHeight / 2f;
 
         float x = Random.Range(minX, maxX);
-        float y = Random.Range(minY, maxY);
+        float y = maxY + 1f;
 
         Vector3 worldPos = new Vector3(x, y, z);
         Debug.Log($"Spawned imposter at x: {worldPos.x}, y: {worldPos.y}");

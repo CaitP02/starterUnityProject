@@ -153,8 +153,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 196.40015, y: -149.23035}
-  m_SizeDelta: {x: 50.9225, y: 76.6256}
+  m_AnchoredPosition: {x: 153.77, y: 7.4424}
+  m_SizeDelta: {x: 25.759, y: 35.147}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &128201506
 MonoBehaviour:
@@ -232,7 +232,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 667, y: 453.51}
+  m_AnchoredPosition: {x: 191.9, y: 135.2}
   m_SizeDelta: {x: 200, y: 172.9806}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &467648503
@@ -259,7 +259,7 @@ MonoBehaviour:
 
     -1
 
-    +5
+    +10
 
     Game Over'
   m_isRightToLeft: 0
@@ -288,8 +288,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 75
-  m_fontSizeBase: 75
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -773,7 +773,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5106875, y: 0.68}
   m_AnchorMax: {x: 0.5106875, y: 0.68}
-  m_AnchoredPosition: {x: -826, y: 301}
+  m_AnchoredPosition: {x: -308.55, y: 115.69}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1021492328
@@ -837,8 +837,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -924,7 +924,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 827, y: -491}
+  m_AnchoredPosition: {x: 387, y: -211.44}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1121368370
@@ -1074,7 +1074,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -614, y: -531}
+  m_AnchoredPosition: {x: -134.45, y: -312}
   m_SizeDelta: {x: 531.0943, y: 199.6291}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1144288523
@@ -1097,7 +1097,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Get 30 points in 60 seconds to win!
+  m_text: You have a minute to pop as many blue balloons as possible!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -1124,8 +1124,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1210,8 +1210,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 196.40015, y: -290.61002}
-  m_SizeDelta: {x: 99.155, y: 117.3732}
+  m_AnchoredPosition: {x: 153.12, y: -25.697}
+  m_SizeDelta: {x: 27.051, y: 31.1312}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1144992938
 MonoBehaviour:
@@ -1582,7 +1582,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 143.65, y: -211}
+  m_AnchoredPosition: {x: 358, y: -323}
   m_SizeDelta: {x: 1166.7, y: 796.5398}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1529787172
@@ -1632,8 +1632,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1720,8 +1720,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -98}
-  m_SizeDelta: {x: 384.4783, y: 123.1021}
+  m_AnchoredPosition: {x: 0, y: -74.000046}
+  m_SizeDelta: {x: 254.0317, y: 86.8669}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1832969284
 MonoBehaviour:
@@ -1887,8 +1887,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 200.23145, y: 38.985046}
-  m_SizeDelta: {x: 51.653, y: 68.1229}
+  m_AnchoredPosition: {x: 153.12457, y: 71.12734}
+  m_SizeDelta: {x: 27.0461, y: 30.7259}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1899116095
 MonoBehaviour:
@@ -1976,11 +1976,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -1996,7 +1996,7 @@ Canvas:
   m_GameObject: {fileID: 1927922204}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -2069,8 +2069,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 199.54999, y: -57.246796}
-  m_SizeDelta: {x: 53.023, y: 74.1093}
+  m_AnchoredPosition: {x: 153.12, y: 38.734}
+  m_SizeDelta: {x: 27.05, y: 34.0611}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2036953017
 MonoBehaviour:

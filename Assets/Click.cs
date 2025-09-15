@@ -1,7 +1,8 @@
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 using UnityEngine.UIElements;
 
-public class imposterClick : MonoBehaviour
+public class Click : MonoBehaviour
 {
     public static int points;
     AudioSource pop;

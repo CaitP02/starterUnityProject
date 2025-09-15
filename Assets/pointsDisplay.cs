@@ -9,23 +9,39 @@ public class pointsDisplay : MonoBehaviour
     public TMP_Text pointsText;
     public static int totalPoints = 0;
     public TMP_Text winText;
+    public static bool gameEnd = false;
+    public void Start()
+    {
+      
+        gameEnd = false;
+        totalPoints = 0;
+        EnemyClick.points = 0;
+        Click.points = 0;
+        BonusClick.points = 0;
+        BombClick.points = 0;
+
+
+    }
+
 
 
     public void Update()
     {
-        totalPoints = imposterClick.points + CircleClick.points + BonusClick.points + BadClick.points;
+        totalPoints = Click.points + EnemyClick.points + BonusClick.points + BombClick.points;
         pointsText.text = "Points: " + totalPoints;
 
-        if (pointsDisplay.totalPoints >= 30)
+       /* if (!gameEnd && pointsDisplay.totalPoints >= 60)
         {
             winText.text = "You Win!";
-            Time.timeScale = 0;
+            gameEnd = true;
+            //Time.timeScale = 0;
             SceneManager.LoadScene("endScene");
-        }
-        if (pointsDisplay.totalPoints <= -30)
+    }*/
+        if (!gameEnd && pointsDisplay.totalPoints <= -60)
         {
             winText.text = "You Lose!";
-            Time.timeScale = 0;
+            gameEnd = true;
+           // Time.timeScale = 0;
             SceneManager.LoadScene("endScene");
         }
 
