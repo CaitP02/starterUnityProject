@@ -1,4 +1,8 @@
-[readme.txt](https://github.com/user-attachments/files/22364888/readme.txt)
+
+Play Here: https://katie-pie.itch.io/balloon-popper-project
+
+Unity game where you pop balloons to earn points.
+
 Credit.
 
 Audio Sources:
@@ -16,4 +20,4 @@ freesound_community
 Massive Explosion - 2 by
 DRAGON-STUDIO
 
-Spirtes created with pixilArt
+Spirtes created by me using pixilArt.com
